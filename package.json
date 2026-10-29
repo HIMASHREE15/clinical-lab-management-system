@@ -1,0 +1,21 @@
+{
+  "name": "clinical_laboratory_management",
+  "version": "1.0.0",
+  "description": "Full-Stack Clinical Laboratory Sample Tracking and Result Delivery System",
+  "scripts": {
+    "dev": "node dev.js",
+    "start": "node dev.js",
+    "test": "npm --prefix server test",
+    "build": "npm --prefix server run build && npm --prefix client run build",
+    "install:all": "npm --prefix server install && npm --prefix client install"
+  },
+  "keywords": [
+    "clinical",
+    "laboratory",
+    "lims",
+    "sample-tracking",
+    "pathology"
+  ],
+  "author": "",
+  "license": "ISC"
+}
